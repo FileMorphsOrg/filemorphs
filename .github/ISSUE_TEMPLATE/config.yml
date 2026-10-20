@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/FileMorphsOrg/filemorphs/discussions
+    about: Ask how something works or share an idea in Discussions.
+  - name: Security vulnerability
+    url: https://github.com/FileMorphsOrg/filemorphs/security/advisories/new
+    about: Report a security problem privately. Only the FileMorphs team can see the report.
+  - name: Private problem
+    url: https://filemorphs.com/privacy#contact
+    about: For anything that involves a confidential file, email support@filemorphs.com instead of posting in public.

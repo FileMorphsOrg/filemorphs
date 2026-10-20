@@ -1,0 +1,45 @@
+name: Translation issue
+description: Wrong, unclear or unnatural text in Spanish, German, Italian or French.
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please write your explanation in English if you can. Quote the site text in its own language.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Spanish
+        - German
+        - Italian
+        - French
+        - English
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+      placeholder: https://filemorphs.com/de/tools/pdf-editor
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Text on the site now
+      description: Copy it exactly. Say where it appears, for example "button in the save panel".
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: For example, wrong meaning, wrong term for accountants, or sounds machine-translated.

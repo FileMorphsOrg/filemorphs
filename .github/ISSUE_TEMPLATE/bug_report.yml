@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in a FileMorphs tool doesn't work the way you expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This tracker is public. Don't attach client files, bank statements or any confidential document.** If the problem only shows with a private file, describe the file instead (page count, size, which program made it), or email support@filemorphs.com.
+
+        Please write in English if you can.
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Tool
+      options:
+        - PDF editor
+        - Compare PDF
+        - Image editor
+        - Other or the whole site
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the PDF editor
+        2. Drop a 3-page scanned PDF
+        3. Click Redact
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include any error message you saw.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 141, Safari 26, Firefox 144
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS 26, iOS 26, Android 16
+  - type: dropdown
+    id: language
+    attributes:
+      label: Site language
+      options:
+        - English
+        - Spanish
+        - German
+        - Italian
+        - French
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or other details
+      description: Check that no names, account numbers or addresses are visible before you upload.
