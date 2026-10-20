@@ -9,7 +9,8 @@ Report bugs, request new tools and point out translation mistakes for [FileMorph
 - **This tracker is public.** Don't attach client files, bank statements or any confidential document. Check screenshots for names, account numbers and addresses before you upload them.
 - **Please write in English if you can.** If you can't, write in your own language and we'll still read it.
 - **Search first.** If someone already reported it, add a thumbs-up reaction or a comment with your details instead of a new issue.
-- **Private or security problem?** Email support@filemorphs.com instead of posting here.
+- **Security problem?** Use [Report a vulnerability](https://github.com/FileMorphsOrg/filemorphs/security/advisories/new). Only the FileMorphs team sees the report. See the [security policy](https://github.com/FileMorphsOrg/.github/blob/main/SECURITY.md).
+- **Private problem, such as one that only shows with a confidential file?** Email support@filemorphs.com instead of posting here.
 
 ## What this repository holds
 
